@@ -25,6 +25,8 @@ Connect to the BlueOS.
 
 ```export ROS_MASTER_URI=http://192.168.2.2:11311```
 
+***Adjust the ip address for each sonar in the launch file.***
+
 Run omniscan_sonar:
 
 ```roslaunch roslaunch omniscan_sidescan sidescansonar.launch```
